@@ -2,7 +2,7 @@ from skimage import io, transform
 IMAGE = io.imread('images/mountains.jpg')
 IMAGE2 = io.imread('images/forrest.jpg')
 IMAGE3 = io.imread('images/sunrise.jpg')
-MASK = io.imread('masks/circlesquare.png')
+MASK = io.imread('masks/trianglemask.png')
 
 height = IMAGE.shape[0]
 width = IMAGE.shape[1]
